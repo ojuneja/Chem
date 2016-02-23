@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MyListDetailsActivity">
+    <item android:id="@+id/action_shuffle_set" android:title="@string/action_shuffle_set"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_set" android:title="@string/action_set"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_add_more" android:title="@string/action_add_more_compounds"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_add_more_customized" android:title="@string/action_add_more_customized_compounds"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

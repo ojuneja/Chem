@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="match_parent">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button_facebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/signin_image"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/login_button_facebook"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorError"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/text_error"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/text_error"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/username_signin"
+            android:id="@+id/text_username"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginEnd="75dp"
+            android:id="@+id/editText_username"
+            android:textColor="@color/textColorPrimary"
+            android:layout_below="@+id/text_username"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/password"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text_password"
+            android:layout_below="@+id/editText_username"
+            android:layout_alignLeft="@+id/editText_username"
+            android:layout_alignStart="@+id/editText_username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textColor="@color/textColorPrimary"
+            android:id="@+id/editText_password"
+            android:layout_marginRight="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_below="@+id/text_password"
+            android:layout_alignLeft="@+id/text_password"
+            android:layout_alignStart="@+id/text_password" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login_button"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/windowBackground"
+                android:id="@+id/login_button"
+                android:layout_below="@+id/editText_password"
+                android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/forgot_password"
+            android:id="@+id/text_forgot_password"
+            android:textColor="@color/blue"
+            android:layout_marginBottom="20dp"
+            android:layout_alignLeft="@+id/login_button"
+            android:layout_alignStart="@+id/login_button"
+            android:layout_below="@+id/login_button" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/signup_button"
+            android:layout_marginLeft="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginStart="20dp"
+           android:layout_toRightOf="@+id/text_forgot_password"
+            android:layout_toEndOf="@+id/text_forgot_password"
+            android:id="@+id/text_sign_up"
+            android:layout_below="@+id/login_button"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>

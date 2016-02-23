@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/relative_make_flashcards1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <EditText
+        android:id="@+id/textView_1"
+        android:hint="Please enter text or image"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        />
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+<RelativeLayout
+        android:id="@+id/relative_make_flashcards2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:layout_weight="1">
+    <EditText
+        android:hint="Please enter text or choose image"
+        android:id="@+id/textView_2"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:id="@+id/imageView_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</LinearLayout>

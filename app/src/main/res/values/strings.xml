@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Chem Flashcards</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit_login">Create My Login Account</string>
+    <string name="email">Email Address</string>
+    <string name="username">Choose any Username</string>
+    <string name="enter_password">Choose any Password</string>
+    <string name="confirm_password">Retype Password</string>
+    <string name="next">Next</string>
+    <string name="login_title">Login</string>
+    <string name="back_title">Back</string>
+    <string name="facebook_app_id">1603902419876996</string>
+    <string name="username_signin">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login Into My Account</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="chem">Chemistry Flashcards</string>
+    <string name="loading">Loading . . .</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="meaning">Tap To See Meaning</string>
+    <string name="correct">I know this compound</string>
+    <string name="incorrect">I don\'t know this compound</string>
+    <string name="create_flashcards">Create List</string>
+    <string name="create_symbol">Create List By Symbol</string>
+    <string name="create_definition">Create List By Definition</string>
+    <string name="make_flashcards">Make Your Own FlashCards</string>
+    <string name="select_all">Select All</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="move_to_top">Top</string>
+    <string name="action_shuffle_set">Shuffle And Play</string>
+    <string name="action_set">Play</string>
+    <string name="action_add_more_compounds">Add More Compounds</string>
+    <string name="action_add_more_customized_compounds">Add Your Own Flashcards</string>
+    <string name="delete">Delete</string>
+    <string name="InOrganicCompounds">Inorganic Compounds</string>
+    <string name="OrganicCompounds">Organic Compounds</string>
+    <string name="enter_email">Please enter your registered Email Address</string>
+    <string name="submit">Submit</string>
+
+
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+</resources>

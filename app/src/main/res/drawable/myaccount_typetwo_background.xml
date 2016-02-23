@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/myaccount_typetwo_normal"
+                android:state_pressed="false" />
+            <item android:drawable="@drawable/myaccount_typetwo_pressed"/>
+        </selector>
+    </item>
+</layer-list>

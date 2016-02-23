@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="510dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/flashcard_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:id="@+id/relative_compounds"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginStart="2.5dp"
+                    android:textSize="35sp"
+                    android:id="@+id/text_compounds"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginStart="2.5dp"
+                    android:id="@+id/image_compounds"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginStart="2.5dp"
+                    android:id="@+id/image_reload"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+            <ImageView
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginStart="2.5dp"
+                android:id="@+id/image_right_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/forward_arrow"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+
+            android:text="@string/meaning"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:id="@+id/text_solution"
+            android:background="@drawable/tap_button_image"
+            android:paddingLeft="80dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+    </LinearLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/text_correctly"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.gc.materialdesign.views.ProgressBarDeterminate
+            android:layout_below="@+id/text_correctly"
+            android:layout_marginTop="5dp"
+            android:id="@+id/progressDeterminate_correct"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/progressDeterminate_correct"
+            android:id="@+id/text_incorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.gc.materialdesign.views.ProgressBarDeterminate
+            android:layout_below="@+id/text_incorrect"
+            android:layout_marginTop="10dp"
+            android:id="@+id/progressDeterminate_incorrect"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/darkRed" />
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/progressDeterminate_incorrect"
+            android:id="@+id/text_skipped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.gc.materialdesign.views.ProgressBarDeterminate
+            android:layout_below="@+id/text_skipped"
+            android:layout_marginTop="10dp"
+            android:id="@+id/progressDeterminate_skipped"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/lightGray" />
+    </RelativeLayout>
+</LinearLayout>
